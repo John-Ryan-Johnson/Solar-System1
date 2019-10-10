@@ -1,3 +1,8 @@
 import '../styles/main.scss';
+import print from './components/cards';
 
-console.error('hi');
+const init = () => {
+  print.printPlanetCard();
+};
+
+init();

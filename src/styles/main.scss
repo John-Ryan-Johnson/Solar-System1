@@ -1,5 +1,19 @@
+$secondary: limegreen;
+
 @import "~bootstrap/scss/bootstrap";
 
 body {
-  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.searchBar {
+  margin: 50px;
+}
+
+#planet-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
