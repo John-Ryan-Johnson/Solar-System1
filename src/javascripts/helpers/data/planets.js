@@ -1,6 +1,6 @@
 const planets = [{
   name: 'Mercury',
-  imageUrl: 'https://media.giphy.com/media/aVGurGMavo1cA/giphy.gif',
+  imageUrl: 'http://bestanimations.com/Earth&Space/Planets/mercury-planet-animation-2.gif',
   description: 'Mercury is the closest planet to the sun and the eighth largest. It has a diameter of 4,880 kilometers. Mercury has the widest temperature extremes in the solar system ranging from 90 degrees Kelvin to 700 degrees Kelvin. Mercury has a thick iron core and a thinner outer crust of rocky material.',
   isGasPlanet: 'false',
   numberOfMoons: '0',
@@ -16,7 +16,7 @@ const planets = [{
 },
 {
   name: 'Earth',
-  imageUrl: 'https://media1.giphy.com/media/mf8UbIDew7e8g/200.webp?cid=790b7611706b01d1a77d63adda336f6d748edcfa09f254f3&rid=200.webp',
+  imageUrl: 'https://media1.giphy.com/media/kreUUBLQDT5io/giphy.webp?cid=790b761189822f92c557888f0ab452d8f3409526a7d23f84&rid=giphy.webp',
   description: 'Earth is the third planet from the Sun and largest of the terrestrial planets. Surprisingly, while it is only the fifth largest planet in terms of size and mass, it is the densest (5,513 kg/m3) of all the planets. Earth is the only planet in the solar system not named after a mythological being. Instead, its name is derived from the Old English word "ertha" and the Anglo-Saxon word "erda" which means ground or soil.',
   isGasPlanet: 'false',
   numberOfMoons: '1',
@@ -24,7 +24,7 @@ const planets = [{
 },
 {
   name: 'Mars',
-  imageUrl: 'https://media2.giphy.com/media/SusKZ4XqWDETC/200.webp?cid=790b76111681b6d94fbd0804423c8504523ba8db39e8efc3&rid=200.webp',
+  imageUrl: 'http://bestanimations.com/Earth&Space/Planets/mars-planet-animation-4.gif',
   description: 'Mars is the fourth planet from the Sun and last of the terrestrial planets. Like the rest of the planets in the solar system (except Earth), Mars is named after a mythological figure - the Roman god of war. In addition to its official name, Mars is sometimes called the Red Planet because of the brownish-red color of its surface. Mars is the second smallest planet in the solar system behind Mercury.',
   isGasPlanet: 'false',
   numberOfMoons: '2',
@@ -48,7 +48,7 @@ const planets = [{
 },
 {
   name: 'Uranus',
-  imageUrl: 'http://bestanimations.com/Earth&Space/Planets/uranus-planet-animation.gif',
+  imageUrl: 'https://i.makeagif.com/media/7-18-2015/xJcp1G.gif',
   description: 'Uranus, named after the the father of the Roman god Saturn, is the seventh planet in the Solar System and third of the gas giants. It is the third largest planet by diameter, yet fourth most massive.',
   isGasPlanet: 'true',
   numberOfMoons: '27',
