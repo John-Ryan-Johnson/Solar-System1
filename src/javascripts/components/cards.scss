@@ -5,11 +5,18 @@
   height: 400px;
   width: 400px;
   background-color: black;
+  *{pointer-events: none;}  
 }
 
 .planetName {
   color: limegreen;
   margin-top: 175px;
   margin-bottom: 175px;
+}
+
+.planetImg {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
   
 }
