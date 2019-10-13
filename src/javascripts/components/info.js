@@ -1,7 +1,7 @@
 import $ from 'jquery';
 
 
-const bigCardReveal = () => {
+const infoReveal = () => {
   $(document).on('click', '.single-card', (e) => {
     const card = $(e.target);
     if (card.hasClass('single-card')) {
@@ -11,4 +11,4 @@ const bigCardReveal = () => {
     }
   });
 };
-export default { bigCardReveal };
+export default { infoReveal };

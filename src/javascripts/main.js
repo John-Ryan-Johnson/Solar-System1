@@ -1,12 +1,12 @@
 import '../styles/main.scss';
 import print from './components/cards';
 import images from './components/images';
-import bigCard from './components/bigCard';
+import info from './components/info';
 
 const init = () => {
   print.printPlanetCard();
   images.imageReveal();
-  bigCard.bigCardReveal();
+  info.infoReveal();
 };
 
 init();
