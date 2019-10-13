@@ -11,7 +11,9 @@ const printPlanetCard = () => {
     <div class="single-card text-center">
     <h1 class="planetName">${planets[i].name}</h1>
     <img class="planetImg d-none" src=${planets[i].imageUrl}>
-    <p class="info d-none">${planets[i].description}</p>
+    <p class="planetInfo d-none">${planets[i].description}</p>
+    <p class="planetMoons d-none">Number of Moons: ${planets[i].numberOfMoons}</p>
+    <p class="largestMoon d-none">Largest Moon: ${planets[i].nameOfLargestMoon}</p>
     </div>
     </div>
     `;

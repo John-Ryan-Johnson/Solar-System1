@@ -8,7 +8,6 @@ const imageReveal = () => {
       card.find('.planetImg').toggleClass('d-none');
       card.find('.planetName').toggleClass('d-none');
     }
-    console.error(e.target);
   });
 };
 export default { imageReveal };
