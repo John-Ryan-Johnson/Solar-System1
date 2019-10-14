@@ -11,6 +11,13 @@ $primary-color: limegreen;
  *{pointer-events: none;}  
 }
 
+.close {
+  margin: 0px;
+  color: RED;
+  text-align: right;
+  
+}
+
 .planetName {
   color: $primary-color;
   margin-top: 175px;
