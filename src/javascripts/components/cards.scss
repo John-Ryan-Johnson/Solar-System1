@@ -1,33 +1,18 @@
+$primary-color: limegreen;
+
 .single-card {
-  margin: 150px;
-  border: 1px solid limegreen;
+  margin: 50px;
+  border: 1px solid $primary-color;
   border-radius: 10px;
   height: 400px;
   width: 400px;
   background-color: black;
-  *{pointer-events: none;}  
+  cursor: pointer;
+ *{pointer-events: none;}  
 }
 
 .planetName {
-  color: limegreen;
+  color: $primary-color;
   margin-top: 175px;
   margin-bottom: 175px;
-}
-
-.planetImg {
-  height: 100%;
-  width: 100%;
-  border-radius: 10px;
-}
-
-.planetInfo {
-  color: limegreen;
-}
-
-.planetMoons {
-  color: limegreen;
-}
-
-.largestMoon {
-  color: limegreen;
 }

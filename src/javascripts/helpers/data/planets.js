@@ -16,7 +16,7 @@ const planets = [{
 },
 {
   name: 'Earth',
-  imageUrl: 'https://media1.giphy.com/media/kreUUBLQDT5io/giphy.webp?cid=790b761189822f92c557888f0ab452d8f3409526a7d23f84&rid=giphy.webp',
+  imageUrl: 'https://media0.giphy.com/media/kreUUBLQDT5io/giphy.gif',
   description: 'Earth is the third planet from the Sun and largest of the terrestrial planets. Surprisingly, while it is only the fifth largest planet in terms of size and mass, it is the densest (5,513 kg/m3) of all the planets. Earth is the only planet in the solar system not named after a mythological being. Instead, its name is derived from the Old English word "ertha" and the Anglo-Saxon word "erda" which means ground or soil.',
   isGasPlanet: 'false',
   numberOfMoons: 1,
@@ -48,7 +48,7 @@ const planets = [{
 },
 {
   name: 'Uranus',
-  imageUrl: 'https://i.makeagif.com/media/7-18-2015/xJcp1G.gif',
+  imageUrl: 'https://media.giphy.com/media/peZF8O9PCUGMU/giphy.gif',
   description: 'Uranus, named after the the father of the Roman god Saturn, is the seventh planet in the Solar System and third of the gas giants. It is the third largest planet by diameter, yet fourth most massive.',
   isGasPlanet: 'true',
   numberOfMoons: 27,
