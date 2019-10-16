@@ -1,0 +1,19 @@
+#planet-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.single-card {
+  padding: 100px;
+  border: 2px solid limegreen;
+  height: 300px;
+  width: 300px;
+  color: limegreen;
+  background-color: black;
+}
+
+.planet-card {
+  padding: 50px;
+}
+
