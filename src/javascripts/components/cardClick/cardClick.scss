@@ -1,0 +1,39 @@
+#fullCard {
+  position: absolute;
+  height: 100%;
+}
+
+.card {
+ padding: 10px;
+ background-color: black;
+
+ .close {
+   color: red;
+ }
+
+ .card-header {
+   padding: 30px;
+   color: limegreen;
+  }
+
+  .card-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: limegreen;
+  }
+
+.card-img-top {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+  }
+
+.info {
+  margin-top: 100px;
+  color: limegreen;
+  }
+
+}

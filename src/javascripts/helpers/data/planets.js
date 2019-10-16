@@ -48,7 +48,7 @@ const planets = [{
 },
 {
   name: 'Uranus',
-  imageUrl: 'https://media.giphy.com/media/peZF8O9PCUGMU/giphy.gif',
+  imageUrl: 'https://66.media.tumblr.com/bd6f52b856f6eb8de3f76496ad369ce5/tumblr_onkvezWmYy1vjhboso2_r1_500.gif',
   description: 'Uranus, named after the the father of the Roman god Saturn, is the seventh planet in the Solar System and third of the gas giants. It is the third largest planet by diameter, yet fourth most massive.',
   isGasPlanet: 'true',
   numberOfMoons: 27,

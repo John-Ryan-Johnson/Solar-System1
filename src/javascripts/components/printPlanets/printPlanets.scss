@@ -1,0 +1,25 @@
+#planet-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+
+.single-card {
+  border: 2px solid limegreen;
+  border-radius: 10px;
+  color: limegreen;
+  background-color: black;
+  margin: 50px;
+  height: 400px;
+  *{pointer-events: none;}
+}
+
+.title {
+  margin-top: 175px;
+  margin-bottom: 175px;
+}
+
+img {
+  border-radius: 10px;
+}

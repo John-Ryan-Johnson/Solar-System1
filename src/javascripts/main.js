@@ -1,16 +1,15 @@
+import 'bootstrap';
 import '../styles/main.scss';
-import './components/images.scss';
-import './components/info.scss';
-import print from './components/cards';
-import images from './components/images';
-import info from './components/info';
-import bigCard from './components/bigCard';
+import print from './components/printPlanets/printPlanets';
+import hover from './components/cardHover/cardHover';
+import card from './components/cardClick/cardClick';
 
 const init = () => {
-  print.printPlanetCard();
-  images.imageReveal();
-  info.infoReveal();
-  bigCard.bigCardReveal();
+  print.printPlanets();
+  print.hideImage();
+  hover.hoverImage();
+  card.clickReveal();
+  card.closeCard();
 };
 
 init();
