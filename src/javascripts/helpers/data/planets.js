@@ -64,5 +64,6 @@ const planets = [{
 }];
 
 const getPlanets = () => planets;
+const getPlanet = (planet) => planets.filter((p) => p.name.toLowerCase() === planet.toLowerCase());
 
-export default { getPlanets };
+export default { getPlanets, getPlanet };
