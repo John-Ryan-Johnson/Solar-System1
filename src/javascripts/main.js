@@ -11,7 +11,7 @@ const init = () => {
   hover.hoverImage();
   card.clickReveal();
   card.closeCard();
-  search.init();
+  search.searchFilter();
 };
 
 init();

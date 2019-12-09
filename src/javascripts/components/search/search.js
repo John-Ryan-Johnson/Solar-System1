@@ -1,15 +1,21 @@
 import $ from 'jquery';
-import p from '../../helpers/data/planets';
-import planet from '../printPlanets/printPlanets';
 
 
-const init = () => {
-  $('body').on('keyup', () => {
-    const value = $('#user=input').val().toLowerCase();
-    const planets = p.getPlanets();
-    const getMatch = planets.filter((x) => x.name.toLowerCase().includes(value));
-    planet.printPlanets(getMatch);
-  });
+const planetFilter = (e) => {
+  const value = $(e.target).val().toLowerCase();
+  const planets = $('.planets');
+  planets.hide();
+  if (value !== '') {
+    planets.filter(`[class*='${value}']`).show();
+  } else {
+    planets.show();
+  }
 };
 
-export default { init };
+const searchFilter = () => $(document).ready(() => {
+  $('#user-input').on('keyup', (e) => {
+    planetFilter(e);
+  });
+});
+
+export default { searchFilter };
