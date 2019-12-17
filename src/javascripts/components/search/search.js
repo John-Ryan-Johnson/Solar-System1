@@ -1,21 +1,30 @@
 import $ from 'jquery';
 
-
-const planetFilter = (e) => {
-  const value = $(e.target).val().toLowerCase();
-  const planets = $('.planets');
-  planets.hide();
-  if (value !== '') {
-    planets.filter(`[class*='${value}']`).show();
-  } else {
-    planets.show();
-  }
+const filterPlanet = (value) => {
+  $('.planet-card').each((index, card) => {
+    if (card.id.toLowerCase().includes(value)) {
+      $(card).show();
+    } else {
+      $(card).hide();
+    }
+  });
 };
 
-const searchFilter = () => $(document).ready(() => {
-  $('#user-input').on('keyup', (e) => {
-    planetFilter(e);
+const searchBar = () => {
+  $('.searchBar').on('keyup', () => {
+    const input = $('#user-input').val().toLowerCase();
+    filterPlanet(input);
   });
-});
+};
 
-export default { searchFilter };
+const activateSearch = () => {
+  $('.searchBar').on('click', '.btn', (e) => {
+    e.preventDefault();
+    const input = $('#user-input').val().toLowerCase();
+    filterPlanet(input);
+  });
+};
+
+activateSearch();
+
+export default { searchBar };
