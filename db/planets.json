@@ -2,7 +2,7 @@
   "planet1": {
   "id": "planet1",
   "name": "Mercury",
-  "imageUrl": "bestanimations.com/Earth&Space/Planets/mercury-planet-animation-2.gif",
+  "imageUrl": "https://bestanimations.com/Earth&Space/Planets/mercury-planet-animation-2.gif",
   "description": "Mercury is the closest planet to the sun and the eighth largest. It has a diameter of 4,880 kilometers. Mercury has the widest temperature extremes in the solar system ranging from 90 degrees Kelvin to 700 degrees Kelvin. Mercury has a thick iron core and a thinner outer crust of rocky material.",
   "isGasPlanet": "false",
   "numberOfMoons": "0",

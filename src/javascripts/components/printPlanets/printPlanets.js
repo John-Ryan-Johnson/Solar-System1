@@ -4,10 +4,10 @@ import planetsData from '../../helpers/data/planetsData';
 import './printPlanets.scss';
 
 const printPlanets = () => {
-  const planets = planetsData.getPlanets();
-  let domString = '';
-  for (let i = 0; i < planets.length; i += 1) {
-    domString += `
+  planetsData.getPlanets().then((planets) => {
+    let domString = '';
+    for (let i = 0; i < planets.length; i += 1) {
+      domString += `
     <div class="planet-card" id="${planets[i].name}" style="width:30rem;">
     <div class="single-card">
     <h2 class="title text-center">${planets[i].name}</h2>
@@ -17,8 +17,9 @@ const printPlanets = () => {
     </div>
     </div>
     `;
-  }
-  utilities.printToDom('planet-card', domString);
+    }
+    utilities.printToDom('planet-card', domString);
+  });
 };
 
 const hideImage = () => {
