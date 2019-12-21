@@ -1,5 +1,5 @@
 {
-  "name": "Solar-System1",
+  "name": "solarsystem1",
   "version": "1.0.0",
   "description": "Application to learn about the planets.",
   "main": "src/javascripts/main.js",

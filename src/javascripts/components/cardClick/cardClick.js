@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import planet from '../../helpers/data/planets';
+import planet from '../../helpers/data/planetsData';
 import utilities from '../../helpers/utilities';
 import './cardClick.scss';
 import cardHover from '../cardHover/cardHover';

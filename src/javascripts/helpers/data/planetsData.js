@@ -4,7 +4,7 @@ import apiKeys from '../apiKeys';
 
 const baseUrl = apiKeys.firebaseKeys.databaseURL;
 
-const getAllPlanets = () => new Promise((resolve, reject) => {
+const getPlanets = () => new Promise((resolve, reject) => {
   axios.get(`${baseUrl}/planets.json`)
     .then((response) => {
       const demPlanets = response.data;
@@ -18,4 +18,4 @@ const getAllPlanets = () => new Promise((resolve, reject) => {
     .catch((error) => reject(error));
 });
 
-export default { getAllPlanets };
+export default { getPlanets };

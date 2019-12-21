@@ -1,10 +1,10 @@
 import $ from 'jquery';
 import utilities from '../../helpers/utilities';
-import planet from '../../helpers/data/planets';
+import planetsData from '../../helpers/data/planetsData';
 import './printPlanets.scss';
 
 const printPlanets = () => {
-  const planets = planet.getPlanets();
+  const planets = planetsData.getPlanets();
   let domString = '';
   for (let i = 0; i < planets.length; i += 1) {
     domString += `
